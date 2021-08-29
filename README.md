@@ -4,7 +4,7 @@
 # Why
 Support for libusb in non rooted Android devices is still not properly solved [ref](https://github.com/libusb/libusb/pull/874), this repository tries combines the code from various repositories (references below) to generate an Android app to connect to usb devices combining Java and Native c++ code.
 
-Compared to my other repository wiht only native Android code that used a version of libusb that is still not final, this repository uses the official libusb library version.
+Compared to [my other repository wiht only native Android code](https://github.com/ibaiGorordo/libusbNativeAndroidTest) that used a version of libusb that is still not final, this repository uses the official libusb library version.
 
 # Usage
 The modified libusb library is added as a submodule, so you will have to load the submodule either by clonning with the recursive flag or:
